@@ -16,7 +16,7 @@ app_name = 'blog'
 urlpatterns = [
     path('fashion/', views.fashion, name='fashion'),
     path('single/<int:pk>', views.single, name='single'),
-    path('monapi/', views.monapi, name='monapi'),
+    # path('monapi/', views.monapi, name='monapi'),
     path('api/', include('blog.apiurls')),
    
 ]
